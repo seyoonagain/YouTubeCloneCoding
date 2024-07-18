@@ -47,7 +47,7 @@ export default function VideoCard({ video, type }) {
             >
                 {!isList && (
                     <img
-                        className='size-10 mr-3 rounded-full cursor-pointer'
+                        className='shrink-0 size-10 mr-3 rounded-full cursor-pointer'
                         alt='channelThumbnail'
                         src={channelThumbnail}
                     />

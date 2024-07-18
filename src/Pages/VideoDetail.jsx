@@ -52,19 +52,21 @@ export default function VideoDetail() {
                             {videoInfo.snippet.title}
                         </h1>
 
-                        <div className='flex relative items-center font-roboto mt-2 mb-3'>
-                            <ChannelInfo channel={channel} />
-                            <button
-                                onClick={() => setSubscribed(!subscribed)}
-                                className={`w-24 h-9 rounded-full text-sm font-semibold ${
-                                    subscribed
-                                        ? 'bg-gray-200 text-zinc-900 dark:bg-zinc-800 dark:text-white'
-                                        : 'bg-zinc-900 text-white dark:bg-zinc-100 dark:text-zinc-900'
-                                } hover:opacity-90  active:bg-youtube active:transition duration-500`}
-                            >
-                                {subscribed ? 'Subscribed' : 'Subscribe'}
-                            </button>
-                            <div className='flex absolute right-0 h-9'>
+                        <div className='flex sm:flex-row flex-col sm:relative sm:items-center sm:justify-normal font-roboto mt-2 mb-3'>
+                            <div className='flex items-center mb-2 sm:mb-0 justify-between sm:justify-normal'>
+                                <ChannelInfo channel={channel} />
+                                <button
+                                    onClick={() => setSubscribed(!subscribed)}
+                                    className={`w-24 h-9 rounded-full text-sm font-semibold ${
+                                        subscribed
+                                            ? 'bg-gray-200 text-zinc-900 dark:bg-zinc-800 dark:text-white'
+                                            : 'bg-zinc-900 text-white dark:bg-zinc-100 dark:text-zinc-900'
+                                    } hover:opacity-90  active:bg-youtube active:transition duration-500`}
+                                >
+                                    {subscribed ? 'Subscribed' : 'Subscribe'}
+                                </button>
+                            </div>
+                            <div className='flex sm:absolute sm:right-0 h-9 justify-end'>
                                 {videoInfo && (
                                     <LikeButton
                                         likeCount={
