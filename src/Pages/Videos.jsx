@@ -18,7 +18,6 @@ export default function Videos() {
         queryFn: async () => youtube.search(keyword),
         refetchOnWindowFocus: false,
     });
-    console.log(videos);
     return (
         <div>
             {isLoading && <LoadingSpinner />}

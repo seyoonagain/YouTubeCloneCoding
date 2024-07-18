@@ -44,7 +44,7 @@ export default function VideoDetail() {
                             title='video'
                             type='text/html'
                             className='mb-3 rounded-2xl w-full aspect-video'
-                            src={`http://www.youtube.com/embed/${videoId}`}
+                            src={`//www.youtube.com/embed/${videoId}`}
                             allow='autoplay'
                         ></iframe>
 
