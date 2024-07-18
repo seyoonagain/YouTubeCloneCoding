@@ -1,0 +1,1032 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "MJgahZloACzFeDXDnmKmtN10bNk",
+    "nextPageToken": "CB4QAA",
+    "regionCode": "US",
+    "pageInfo": {
+        "totalResults": 1000000,
+        "resultsPerPage": 30
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "mL8DjkGGm99fitH6y4VnmlV1DqM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "SEXfnNzARF4"
+            },
+            "snippet": {
+                "publishedAt": "2024-07-13T07:33:47Z",
+                "channelId": "UCe52oeb7Xv_KaJsEzcKXJJg",
+                "title": "NewJeans (뉴진스) - Supernatural | Show! MusicCore | MBC240713방송",
+                "description": "NewJeans (뉴진스) - Supernatural | Show! MusicCore | MBC240713방송 #NewJeans #Supernatural #MBCKPOP More ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/SEXfnNzARF4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/SEXfnNzARF4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/SEXfnNzARF4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "MBCkpop",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-07-13T07:33:47Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "pjn1H9xows48w2d05Lx50JVVeHI",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "YxjRLPGC7wU"
+            },
+            "snippet": {
+                "publishedAt": "2024-07-13T07:28:12Z",
+                "channelId": "UCe52oeb7Xv_KaJsEzcKXJJg",
+                "title": "NewJeans (뉴진스) - ETA + OMG + Hype Boy | Show! MusicCore | MBC240713방송",
+                "description": "NewJeans (뉴진스) - ETA + OMG + Hype Boy | Show! MusicCore | MBC240713방송 #NewJeans #ETA_OMG_HypeBoy ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/YxjRLPGC7wU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/YxjRLPGC7wU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/YxjRLPGC7wU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "MBCkpop",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-07-13T07:28:12Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "BHGmvUeUkX0bLhA0JX2dr5sT-hY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ZncbtRo7RXs"
+            },
+            "snippet": {
+                "publishedAt": "2024-06-21T04:00:01Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "NewJeans (뉴진스) ‘Supernatural’ Official MV (Part.1)",
+                "description": "NewJeans (뉴진스) 'Supernatural' Official MV (Part.1) Producer: MIN HEE JIN Music Video Director: Shin Dongle © 2024 ADOR.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ZncbtRo7RXs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ZncbtRo7RXs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ZncbtRo7RXs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-06-21T04:00:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "4NDiE5S9HdJFHz_DSXbBmL8QCkI",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "7XhRd6cVIyI"
+            },
+            "snippet": {
+                "publishedAt": "2024-07-12T09:10:01Z",
+                "channelId": "UC5BMQOsAB8hKUyHu9KI6yig",
+                "title": "Right Now - NewJeans ニュージーンズ 뉴진스 [Music Bank] | KBS WORLD TV 240712",
+                "description": "Right Now - NewJeans ニュージーンズ 뉴진스 [Music Bank] | KBS WORLD TV 240712 #MusicBank #뮤직뱅크 #ミュージック ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/7XhRd6cVIyI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/7XhRd6cVIyI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/7XhRd6cVIyI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "KBS WORLD TV",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-07-12T09:10:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "j6uWCLeHe_dyJWX7PTarOHU74hE",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "PjZ677elYN8"
+            },
+            "snippet": {
+                "publishedAt": "2024-07-13T07:27:20Z",
+                "channelId": "UCe52oeb7Xv_KaJsEzcKXJJg",
+                "title": "NewJeans (뉴진스) - Right Now | Show! MusicCore | MBC240713방송",
+                "description": "NewJeans (뉴진스) - Right Now | Show! MusicCore | MBC240713방송 #NewJeans #RightNow #MBCKPOP More clips are ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/PjZ677elYN8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/PjZ677elYN8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/PjZ677elYN8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "MBCkpop",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-07-13T07:27:20Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Hr4MHfXuiMYlxo7_HErUzEF-wps",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Krr2u8BUtLw"
+            },
+            "snippet": {
+                "publishedAt": "2023-07-21T04:00:08Z",
+                "channelId": "UCxOqS3cYg4FaHbobICo7nFQ",
+                "title": "New Jeans",
+                "description": "Provided to YouTube by 'ADOR' New Jeans · NewJeans NewJeans 2nd EP 'Get Up' Released on: 2023-07-21 Auto-generated ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Krr2u8BUtLw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Krr2u8BUtLw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Krr2u8BUtLw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans - Topic",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-07-21T04:00:08Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "9aosTPhHKSGa16qgmc2rD5jBm_k",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ft70sAYrFyY"
+            },
+            "snippet": {
+                "publishedAt": "2024-04-26T15:00:01Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "NewJeans (뉴진스) &#39;Bubble Gum&#39; Official MV",
+                "description": "NewJeans (뉴진스) 'Bubble Gum' Official MV Producer: MIN HEE JIN Music Video Director: Youngeum Lee © 2024 ADOR.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ft70sAYrFyY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ft70sAYrFyY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ft70sAYrFyY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-04-26T15:00:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "XCMKrWnu0fC8Nn37CaJQdEP2o5U",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "A4S8zl50AdM"
+            },
+            "snippet": {
+                "publishedAt": "2024-07-04T15:00:01Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "NewJeans (뉴진스) ‘Supernatural’ Official MV (Part.2)",
+                "description": "NewJeans (뉴진스) 'Supernatural' Official MV (Part.2) Producer: MIN HEE JIN Music Video Director: Shin Dongle © 2024 ADOR.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/A4S8zl50AdM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/A4S8zl50AdM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/A4S8zl50AdM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-07-04T15:00:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "IwGCwVsrID486ViGS6noAvrj48Q",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "S6jKNp-nagw"
+            },
+            "snippet": {
+                "publishedAt": "2024-07-13T10:46:12Z",
+                "channelId": "UCe52oeb7Xv_KaJsEzcKXJJg",
+                "title": "[#음중직캠8K] NewJeans (뉴진스) – ETA + OMG + Hype Boy | 쇼! 음악중심 | MBC240713방송",
+                "description": "음중직캠8K] NewJeans (뉴진스) – ETA + OMG + Hype Boy | 쇼! 음악중심 | MBC240713방송 #NewJeans #ETA #OMG #HypeBoy ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/S6jKNp-nagw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/S6jKNp-nagw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/S6jKNp-nagw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "MBCkpop",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-07-13T10:46:12Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "wU0bOrV0Ali69ZoTp087Rtje9RA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "7E_0nYUveuM"
+            },
+            "snippet": {
+                "publishedAt": "2024-07-13T10:42:48Z",
+                "channelId": "UCe52oeb7Xv_KaJsEzcKXJJg",
+                "title": "[#음중직캠8K] NewJeans (뉴진스) – Supernatural | 쇼! 음악중심 | MBC240713방송",
+                "description": "음중직캠8K] NewJeans (뉴진스) – Supernatural | 쇼! 음악중심 | MBC240713방송 #NewJeans #Supernatural #MBCKPOP ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/7E_0nYUveuM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/7E_0nYUveuM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/7E_0nYUveuM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "MBCkpop",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-07-13T10:42:48Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "ytJMPj1apOLDrDv2RyYugOJmYO0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Q3K0TOvTOno"
+            },
+            "snippet": {
+                "publishedAt": "2024-05-24T07:00:00Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "NewJeans (뉴진스) &#39;How Sweet&#39; Official MV",
+                "description": "NewJeans (뉴진스) 'How Sweet' Official MV Producer: MIN HEE JIN Music Video Director: Heewon Shin © 2024 ADOR. All Rights ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Q3K0TOvTOno/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Q3K0TOvTOno/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Q3K0TOvTOno/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-05-24T07:00:00Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "b158S5pPrwYw2VxtGfQ9Mee_dKk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "m6pTbEz4w3o"
+            },
+            "snippet": {
+                "publishedAt": "2024-06-16T15:00:00Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "NewJeans (뉴진스) &#39;Right Now&#39; Official MV",
+                "description": "NewJeans (뉴진스) 'Right Now' Official MV Producer: MIN HEE JIN Music Video Director: Youngeum Lee THE POWERPUFF ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/m6pTbEz4w3o/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/m6pTbEz4w3o/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/m6pTbEz4w3o/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-06-16T15:00:00Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "poPLdbcoIHC0IrHpy4SthFj9LHk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Miz6qtu66cY"
+            },
+            "snippet": {
+                "publishedAt": "2024-07-13T11:27:22Z",
+                "channelId": "UCe52oeb7Xv_KaJsEzcKXJJg",
+                "title": "[#음중직캠8K] NewJeans (뉴진스) – Right Now | 쇼! 음악중심 | MBC240713방송",
+                "description": "음중직캠8K] NewJeans (뉴진스) – Right Now | 쇼! 음악중심 | MBC240713방송 #NewJeans #RightNow #MBCKPOP MBCkpop ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Miz6qtu66cY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Miz6qtu66cY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Miz6qtu66cY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "MBCkpop",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-07-13T11:27:22Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "NHsca0gJB2PQ0uyw82mWNAD_VMA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ArmDp-zijuc"
+            },
+            "snippet": {
+                "publishedAt": "2023-07-07T03:58:10Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "NewJeans (뉴진스) &#39;Super Shy&#39; Official MV",
+                "description": "NewJeans (뉴진스) 'Super Shy' Official MV Producer: MIN HEE JIN Music Video Director: Heewon Shin 0:00 Super Shy 1:44 Join ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ArmDp-zijuc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ArmDp-zijuc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ArmDp-zijuc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-07-07T03:58:10Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "0XXz-twdSH1EbZe5mi_CS0J9zPE",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Km71Rr9K-Bw"
+            },
+            "snippet": {
+                "publishedAt": "2022-12-30T10:00:01Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "NewJeans (뉴진스) &#39;Ditto&#39; Performance Video",
+                "description": "NewJeans (뉴진스) 'Ditto' Performance Video Producer: MIN HEE JIN Performance Video Direction: Yemin Kim Performance ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Km71Rr9K-Bw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Km71Rr9K-Bw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Km71Rr9K-Bw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-12-30T10:00:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "UBEXq83CYxaQHM9zXcP0sXvMfTk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "y0LFhvULyRk"
+            },
+            "snippet": {
+                "publishedAt": "2024-07-13T10:43:39Z",
+                "channelId": "UCe52oeb7Xv_KaJsEzcKXJJg",
+                "title": "[#음중직캠] NewJeans HAERIN (뉴진스 해린) – Supernatural | 쇼! 음악중심 | MBC240713방송",
+                "description": "음중직캠] NewJeans HAERIN (뉴진스 해린) – Supernatural | 쇼! 음악중심 | MBC240713방송 #NewJeans #Supernatural ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/y0LFhvULyRk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/y0LFhvULyRk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/y0LFhvULyRk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "MBCkpop",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-07-13T10:43:39Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "3-e9ywijq9KehcUeCr2kEehI2N8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "sVTy_wmn5SU"
+            },
+            "snippet": {
+                "publishedAt": "2023-01-03T11:30:01Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "NewJeans (뉴진스) &#39;OMG&#39; Official MV (Performance ver.1)",
+                "description": "NewJeans (뉴진스) 'OMG' Official MV (Performance ver.1) Producer: MIN HEE JIN Music Video Director: Wooseok Shin ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/sVTy_wmn5SU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/sVTy_wmn5SU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/sVTy_wmn5SU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-01-03T11:30:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "3bCz8gJcY_eoeCKDl-7NiZtD6ao",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "7FbDF0wWe_8"
+            },
+            "snippet": {
+                "publishedAt": "2024-07-13T04:30:04Z",
+                "channelId": "UCeLPm9yH_a_QH8n6445G-Ow",
+                "title": "[뮤뱅 원테이크 4k] 뉴진스(NewJeans) &#39;Right Now&#39; Bonus Ver. @뮤직뱅크(Music Bank) 240712",
+                "description": "NewJeans #RightNow #뉴진스 #원테이크 #원테이크4k More from #KBSKPOP Twitter: https://twitter.com/StudioK_twt Instagram: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/7FbDF0wWe_8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/7FbDF0wWe_8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/7FbDF0wWe_8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "KBS Kpop",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-07-13T04:30:04Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "FFSYJu1FFRNKfSevAO8GTPHgTsU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "DRIK7o0op7I"
+            },
+            "snippet": {
+                "publishedAt": "2024-07-12T08:52:10Z",
+                "channelId": "UC5BMQOsAB8hKUyHu9KI6yig",
+                "title": "(Interview) Interview with NewJeans [Music Bank] | KBS WORLD TV 240712",
+                "description": "(Interview) Interview with NewJeans [Music Bank] | KBS WORLD TV 240712 #MusicBank #뮤직뱅크 #ミュージックバンク #音乐 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/DRIK7o0op7I/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/DRIK7o0op7I/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/DRIK7o0op7I/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "KBS WORLD TV",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-07-12T08:52:10Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "s2n5gr0MNePvuGrUOideC6tp59o",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Ec0Z1v7jKDQ"
+            },
+            "snippet": {
+                "publishedAt": "2024-05-24T15:00:01Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "NewJeans (뉴진스) ‘How Sweet’ Performance Video | Coke Studio",
+                "description": "NewJeans (뉴진스) 'How Sweet' Performance Video | Coke Studio This performance video was filmed in partnership with Coke ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Ec0Z1v7jKDQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Ec0Z1v7jKDQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Ec0Z1v7jKDQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-05-24T15:00:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "UwrNXKHyDA9OoYNeqbbeCFBqGeM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "D69vKyWjVGE"
+            },
+            "snippet": {
+                "publishedAt": "2024-06-22T10:02:36Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "I gotta see the meaning of it🛸#NewJeans #뉴진스#NewJeans_Supernatural #NewJeans_RightNow",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/D69vKyWjVGE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/D69vKyWjVGE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/D69vKyWjVGE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-06-22T10:02:36Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "P0M14lZ6Nj6lYP9f5XJ8hy_SYXw",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "js1CtxSY38I"
+            },
+            "snippet": {
+                "publishedAt": "2022-07-21T15:00:14Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "NewJeans (뉴진스) &#39;Attention&#39; Official MV",
+                "description": "NewJeans (뉴진스) 'Attention' Official MV OFFICIAL WEBSITE https://newjeans.kr/ Producer: MIN HEE JIN Music Video Director: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/js1CtxSY38I/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/js1CtxSY38I/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/js1CtxSY38I/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-07-21T15:00:14Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "X5r9jMCV0uK4G37get27R84UGQ0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "11cta61wi0g"
+            },
+            "snippet": {
+                "publishedAt": "2022-08-18T09:00:01Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "NewJeans (뉴진스) &#39;Hype Boy&#39; Official MV (Performance ver.1)",
+                "description": "NewJeans (뉴진스) 'Hype Boy' Official MV (Performance ver.1) Producer: MIN HEE JIN Music Video Director: Dongle Shin ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/11cta61wi0g/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/11cta61wi0g/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/11cta61wi0g/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-08-18T09:00:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "GJBWXk7jlPC9JdAhuuEJesiHn_o",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "UEELqlGOl_k"
+            },
+            "snippet": {
+                "publishedAt": "2024-05-24T09:26:46Z",
+                "channelId": "UC5BMQOsAB8hKUyHu9KI6yig",
+                "title": "How Sweet - NewJeans ニュージーンズ 뉴진스 [Music Bank] | KBS WORLD TV 240524",
+                "description": "HowSweet #NewJeans #뉴진스 #musicbank #뮤직뱅크 #ミュージックバンク #音乐银行 #HongEunChae #홍은채 #ZhangHao ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/UEELqlGOl_k/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/UEELqlGOl_k/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/UEELqlGOl_k/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "KBS WORLD TV",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-05-24T09:26:46Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "5R9t1wC6P_9bQayrukGydt54yPs",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "VOmIplFAGeg"
+            },
+            "snippet": {
+                "publishedAt": "2022-08-01T08:58:12Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "NewJeans (뉴진스) &#39;Cookie&#39; Official MV",
+                "description": "NewJeans (뉴진스) 'Cookie' Official MV Producer: MIN HEE JIN Music Video Director: Dongle Shin c 2022 ADOR. All Rights ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/VOmIplFAGeg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/VOmIplFAGeg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/VOmIplFAGeg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-08-01T08:58:12Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "mlAJx97xgBW77djJriPM_qePz_0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "KrtYasOGibU"
+            },
+            "snippet": {
+                "publishedAt": "2023-08-22T02:00:07Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "Hype &#39;V&#39;oy with #BTS #V 🧸#NewJeans #뉴진스 #NewJeans_HypeBoy#Time_to_NewJeans",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/KrtYasOGibU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/KrtYasOGibU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/KrtYasOGibU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-08-22T02:00:07Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "3v4cL1jbCbUSNalLTfw7qEUrhYE",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "pSUydWEqKwE"
+            },
+            "snippet": {
+                "publishedAt": "2022-12-19T09:00:03Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "NewJeans (뉴진스) &#39;Ditto&#39; Official MV (side A)",
+                "description": "Producer: MIN HEE JIN Music Video Director: Wooseok Shin (DOLPHINERS FILM) c 2022 ADOR. All Rights Reserved. Connect ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/pSUydWEqKwE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/pSUydWEqKwE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/pSUydWEqKwE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-12-19T09:00:03Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "6TL2jFH99HW26tGaRQdmN0_9Gao",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "fTt3dbNBH20"
+            },
+            "snippet": {
+                "publishedAt": "2024-05-24T07:16:39Z",
+                "channelId": "UCmth4hMyizG-_W9jidBqs_A",
+                "title": "NewJeans &#39;How Sweet&#39; Lyrics (뉴진스 How Sweet 가사) (Color Coded Lyrics)",
+                "description": "All Rights Administered by ADOR • Artist: NewJeans (뉴진스) • Song ♫: How Sweet • Album: How Sweet • Released: 2024.05.24 .",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/fTt3dbNBH20/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/fTt3dbNBH20/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/fTt3dbNBH20/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Jaeguchi",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-05-24T07:16:39Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "DiJFyaqnTt4XIsBJ_l_ryfBIyS8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "GUvZyGalLQg"
+            },
+            "snippet": {
+                "publishedAt": "2024-02-20T11:04:35Z",
+                "channelId": "UCArLZtok93cO5R9RI4_Y5Jw",
+                "title": "Sweet #다니엘 🤫 #NewJeans #DANIELLE #NI_KI #ENHYPEN #SweetVenom",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/GUvZyGalLQg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/GUvZyGalLQg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/GUvZyGalLQg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "ENHYPEN",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-02-20T11:04:35Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "eX5rN5ee7aOT1tR4zQHKdP6_LNo",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Vk5-c_v4gMU"
+            },
+            "snippet": {
+                "publishedAt": "2024-03-25T08:58:08Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "ILLIT (아일릿) ‘Magnetic’ Official MV",
+                "description": "Creative Director: Serian Heu Music Video Director: DQM SUMMER MOON with ILLIT c BELIFT LAB Inc. All Rights Reserved ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Vk5-c_v4gMU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Vk5-c_v4gMU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Vk5-c_v4gMU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-03-25T08:58:08Z"
+            }
+        }
+    ]
+}

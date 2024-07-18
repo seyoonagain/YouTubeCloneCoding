@@ -1,0 +1,64 @@
+{
+    "kind": "youtube#videoListResponse",
+    "etag": "kAicovUQWHJsm0me3TpjvlTQyBs",
+    "items": [
+        {
+            "kind": "youtube#video",
+            "etag": "99E60kbKh2AZ4PK1oJ-v-9x8OW8",
+            "id": "ZncbtRo7RXs",
+            "snippet": {
+                "publishedAt": "2024-06-21T04:00:01Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "NewJeans (뉴진스) ‘Supernatural’ Official MV (Part.1)",
+                "description": "NewJeans (뉴진스) ‘Supernatural’ Official MV (Part.1)\n\nProducer: MIN HEE JIN\nMusic Video Director: Shin Dongle\n\n© 2024 ADOR. All Rights Reserved.\n\nConnect with NewJeans\nPHONING https://phoning.onelink.me/KG15/n7452q87\nOFFICIAL YOUTUBE https://www.youtube.com/c/NewJeans_official\nOFFICIAL WEBSITE https://newjeans.kr\nOFFICIAL INSTAGRAM https://www.instagram.com/newjeans_official\nOFFICIAL TWITTER https://twitter.com/NewJeans_ADOR\nOFFICIAL TIKTOK https://www.tiktok.com/@newjeans_official\nOFFICIAL WEVERSE https://weverse.io/newjeansofficial\nOFFICIAL FACEBOOK https://www.facebook.com/official.newjeans\nOFFICIAL JAPAN TWITTER https://twitter.com/@NewJeans_jp\nOFFICIAL WEIBO  https://weibo.com/NewJeansADOR\nOFFICIAL BILIBILI https://space.bilibili.com/3493092783032940\n\n#NewJeans #뉴진스\n#NewJeans_Supernatural #NewJeans_RightNow \n#NewJeans_is_Everywhere\n#ADOR #어도어",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ZncbtRo7RXs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ZncbtRo7RXs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ZncbtRo7RXs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/ZncbtRo7RXs/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/ZncbtRo7RXs/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "tags": ["HYBE", "HYBE LABELS", "하이브", "하이브레이블즈"],
+                "categoryId": "10",
+                "liveBroadcastContent": "none",
+                "defaultLanguage": "ko",
+                "localized": {
+                    "title": "NewJeans (뉴진스) ‘Supernatural’ Official MV (Part.1)",
+                    "description": "NewJeans (뉴진스) ‘Supernatural’ Official MV (Part.1)\n\nProducer: MIN HEE JIN\nMusic Video Director: Shin Dongle\n\n© 2024 ADOR. All Rights Reserved.\n\nConnect with NewJeans\nPHONING https://phoning.onelink.me/KG15/n7452q87\nOFFICIAL YOUTUBE https://www.youtube.com/c/NewJeans_official\nOFFICIAL WEBSITE https://newjeans.kr\nOFFICIAL INSTAGRAM https://www.instagram.com/newjeans_official\nOFFICIAL TWITTER https://twitter.com/NewJeans_ADOR\nOFFICIAL TIKTOK https://www.tiktok.com/@newjeans_official\nOFFICIAL WEVERSE https://weverse.io/newjeansofficial\nOFFICIAL FACEBOOK https://www.facebook.com/official.newjeans\nOFFICIAL JAPAN TWITTER https://twitter.com/@NewJeans_jp\nOFFICIAL WEIBO  https://weibo.com/NewJeansADOR\nOFFICIAL BILIBILI https://space.bilibili.com/3493092783032940\n\n#NewJeans #뉴진스\n#NewJeans_Supernatural #NewJeans_RightNow \n#NewJeans_is_Everywhere\n#ADOR #어도어"
+                },
+                "defaultAudioLanguage": "ko"
+            },
+            "statistics": {
+                "viewCount": "16224765",
+                "likeCount": "490747",
+                "favoriteCount": "0",
+                "commentCount": "36454"
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 1,
+        "resultsPerPage": 1
+    }
+}

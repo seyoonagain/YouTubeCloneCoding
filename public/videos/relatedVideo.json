@@ -1,0 +1,1032 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "65ae_g4biE9FS8hZq5yZweFFiKE",
+    "nextPageToken": "CB4QAA",
+    "regionCode": "US",
+    "pageInfo": {
+        "totalResults": 5565,
+        "resultsPerPage": 30
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "KNul9L0Dvfg9D3xLq6huzWkHqlA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Km71Rr9K-Bw"
+            },
+            "snippet": {
+                "publishedAt": "2022-12-30T10:00:01Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "NewJeans (뉴진스) &#39;Ditto&#39; Performance Video",
+                "description": "NewJeans (뉴진스) 'Ditto' Performance Video Producer: MIN HEE JIN Performance Video Direction: Yemin Kim Performance ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Km71Rr9K-Bw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Km71Rr9K-Bw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Km71Rr9K-Bw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-12-30T10:00:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Ro_p-PokU4u2rlrWFem5Ny3Y-IU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "8ytj4UZH4RA"
+            },
+            "snippet": {
+                "publishedAt": "2023-07-07T06:00:02Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "Let’s get Super Shy! 🫣#ImSuperShy #NewJeans #뉴진스 #NewJeans_SuperShy #Time_to_NewJeans",
+                "description": "2023 ADOR. All Rights Reserved. Connect with NewJeans PHONING https://phoning.onelink.me/KG15/n7452q87 OFFICIAL ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/8ytj4UZH4RA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/8ytj4UZH4RA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/8ytj4UZH4RA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-07-07T06:00:02Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "fj-hErcKOBcE0T4TMKaTfW_5sp4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "g_VbcR87yA0"
+            },
+            "snippet": {
+                "publishedAt": "2023-07-08T02:00:01Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "Bunnies! Show us your #ImSuperShy 🐰#NewJeans #NewJeans_SuperShy #NewJeans_GetUp #Time_to_NewJeans",
+                "description": "2023 ADOR. All Rights Reserved. Connect with NewJeans PHONING https://phoning.onelink.me/KG15/n7452q87 OFFICIAL ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/g_VbcR87yA0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/g_VbcR87yA0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/g_VbcR87yA0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-07-08T02:00:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "9ekSk8y8fx1ltv9Np0uWTPFQGX8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Rqaa4sEnCnY"
+            },
+            "snippet": {
+                "publishedAt": "2023-07-10T03:00:02Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "Super Shy, Super Clap 👏#ImSuperShy #HAERIN#NewJeans #NewJeans_SuperShy #Time_to_NewJeans",
+                "description": "2023 ADOR. All Rights Reserved. Connect with NewJeans PHONING https://phoning.onelink.me/KG15/n7452q87 OFFICIAL ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Rqaa4sEnCnY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Rqaa4sEnCnY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Rqaa4sEnCnY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-07-10T03:00:02Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "mlAJx97xgBW77djJriPM_qePz_0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "KrtYasOGibU"
+            },
+            "snippet": {
+                "publishedAt": "2023-08-22T02:00:07Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "Hype &#39;V&#39;oy with #BTS #V 🧸#NewJeans #뉴진스 #NewJeans_HypeBoy#Time_to_NewJeans",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/KrtYasOGibU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/KrtYasOGibU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/KrtYasOGibU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-08-22T02:00:07Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "sJZyMNJxw1JVzInM556JOd7en8A",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "XEyEINCD-6w"
+            },
+            "snippet": {
+                "publishedAt": "2023-07-11T03:00:01Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "#ImSuperShy At Home ver. 🏡#NewJeans #NewJeans_SuperShy #NewJeans_GetUp #Time_to_NewJeans",
+                "description": "2023 ADOR. All Rights Reserved. Connect with NewJeans PHONING https://phoning.onelink.me/KG15/n7452q87 OFFICIAL ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/XEyEINCD-6w/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/XEyEINCD-6w/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/XEyEINCD-6w/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-07-11T03:00:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "QuWCQVL_q3Fojoo96XS0p4amI4k",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Y8mML3ZphlI"
+            },
+            "snippet": {
+                "publishedAt": "2023-07-12T08:05:17Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "It’s giving NEWJEANS😲#NewJeans #뉴진스#NewJeans_NewJeans #NewJeans_GetUp#Time_to_NewJeans",
+                "description": "2023 ADOR. All Rights Reserved. Connect with NewJeans PHONING https://phoning.onelink.me/KG15/n7452q87 OFFICIAL ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Y8mML3ZphlI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Y8mML3ZphlI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Y8mML3ZphlI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-07-12T08:05:17Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "bFRxyfLKZrwtrawvPlco97tuGN0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "O40BjNHBv0c"
+            },
+            "snippet": {
+                "publishedAt": "2023-07-13T08:00:01Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "누구보다도 💟#ImSuperShy 🎵#NewJeans #NewJeans_SuperShy #NewJeans_GetUp #Time_to_NewJeans",
+                "description": "2023 ADOR. All Rights Reserved. Connect with NewJeans PHONING https://phoning.onelink.me/KG15/n7452q87 OFFICIAL ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/O40BjNHBv0c/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/O40BjNHBv0c/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/O40BjNHBv0c/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-07-13T08:00:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "FMCs0lWq6p0_dMohGF_lqGLp0R8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "_Xs1ZCMfa2Y"
+            },
+            "snippet": {
+                "publishedAt": "2023-01-06T10:00:01Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "NewJeans (뉴진스) &#39;OMG&#39; Dance Practice",
+                "description": "NewJeans (뉴진스) 'OMG' Dance Practice c 2023 ADOR. All Rights Reserved. Connect with NewJeans PHONING ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/_Xs1ZCMfa2Y/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/_Xs1ZCMfa2Y/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/_Xs1ZCMfa2Y/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-01-06T10:00:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "ZV8qsY2mMATPjdqgdCEsworcPvI",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "fYQxthUKung"
+            },
+            "snippet": {
+                "publishedAt": "2023-01-03T14:05:35Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "Oh my oh my God 예상했어 나🫢 #NewJeans #뉴진스#NewJeans_OMG #NewJeans_Ditto#Year_of_NewJeans",
+                "description": "Oh my oh my God 예상했어 나   #NewJeans #뉴진스#NewJeans_OMG #NewJeans_Ditto#Year_of_NewJeans c 2023 ADOR.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/fYQxthUKung/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/fYQxthUKung/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/fYQxthUKung/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-01-03T14:05:35Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "wuDLbm79jhGNgGTpnmxgmQw4jho",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "XIOoqJyx8E4"
+            },
+            "snippet": {
+                "publishedAt": "2023-04-03T09:00:00Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "NewJeans (뉴진스) &#39;Zero&#39; Official MV",
+                "description": "Connect with NewJeans PHONING https://phoning.onelink.me/KG15/n7452q87 OFFICIAL YOUTUBE ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/XIOoqJyx8E4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/XIOoqJyx8E4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/XIOoqJyx8E4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-04-03T09:00:00Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "vOOadofFOD1wtxkmNC2vaJ6vT9E",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "eHyrHk8GZLI"
+            },
+            "snippet": {
+                "publishedAt": "2023-07-15T02:00:02Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "NewJeans feeling shy together 🫣✨#ImSuperShy #NewJeans #NewJeans_SuperShy #Time_to_NewJeans",
+                "description": "2023 ADOR. All Rights Reserved. Connect with NewJeans PHONING https://phoning.onelink.me/KG15/n7452q87 OFFICIAL ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/eHyrHk8GZLI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/eHyrHk8GZLI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/eHyrHk8GZLI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-07-15T02:00:02Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "GikqgwOsn1OoU_eFy3DuaU6lIe4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "7VvNXNoCFgo"
+            },
+            "snippet": {
+                "publishedAt": "2023-07-14T11:00:01Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "#ImSuperShy with #LE_SSERAFIM#르세라핌#HONGEUNCHAE#홍은채#NewJeans#뉴진스#DANIELLE#다니엘#NewJeans_SuperShy",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/7VvNXNoCFgo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/7VvNXNoCFgo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/7VvNXNoCFgo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-07-14T11:00:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "3HzVPW5HnSWonBhBGEn7LbmIctk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "G_1zDzhAz9w"
+            },
+            "snippet": {
+                "publishedAt": "2023-01-01T08:00:01Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "NewJeans (뉴진스) &#39;Ditto&#39; Dance Practice",
+                "description": "NewJeans (뉴진스) 'Ditto' Dance Practice c 2022 ADOR. All Rights Reserved. Connect with NewJeans PHONING ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/G_1zDzhAz9w/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/G_1zDzhAz9w/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/G_1zDzhAz9w/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-01-01T08:00:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "JIZsB55Cem5tLz_2ojzobofYF8M",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "lsf2k3txRRs"
+            },
+            "snippet": {
+                "publishedAt": "2023-01-19T09:00:03Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "OMG this phone🥹 #NewJeans #뉴진스 #NewJeans_OMG #NewJeans_Ditto #Year_of_NewJeans",
+                "description": "OMG this phone   #NewJeans #뉴진스 #NewJeans_OMG #NewJeans_Ditto #Year_of_NewJeans c 2023 ADOR. All Rights ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/lsf2k3txRRs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/lsf2k3txRRs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/lsf2k3txRRs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-01-19T09:00:03Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "imAZIi35kKbogysrYPuvuys1wEY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "MA4e9Qgc-jk"
+            },
+            "snippet": {
+                "publishedAt": "2023-08-17T08:00:11Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "What&#39;s your ETA⏱️ with #BTS #Jimin😆 #NewJeans #뉴진스 #DANIELLE #HANNI #NewJeans_ETA #Time_to_NewJeans",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/MA4e9Qgc-jk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/MA4e9Qgc-jk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/MA4e9Qgc-jk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-08-17T08:00:11Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "gpc0TPArdZoZdmYBbM7bzlPFgac",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Gw2jHej29QE"
+            },
+            "snippet": {
+                "publishedAt": "2022-08-13T06:00:00Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "NewJeans (뉴진스) &#39;Hype Boy&#39; Special Performance Video",
+                "description": "NewJeans (뉴진스) 'Hype Boy' Special Performance Video Producer: MIN HEE JIN Special Performance Video Direction: Yemin ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Gw2jHej29QE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Gw2jHej29QE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Gw2jHej29QE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-08-13T06:00:00Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "ckh6tRrRbQ3Eqe48ZZb4WaLkNpo",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "b9Pha_aJrok"
+            },
+            "snippet": {
+                "publishedAt": "2022-12-26T10:45:33Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "Ra-ta-ta-ta 울린 심장 ❤️‍🩹 #NewJeans #뉴진스#NewJeans_OMG #NewJeans_Ditto#NewJeans_of_Winter",
+                "description": "Ra-ta-ta-ta 울린 심장 ❤️‍   #NewJeans #뉴진스#NewJeans_OMG #NewJeans_Ditto#NewJeans_of_Winter.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/b9Pha_aJrok/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/b9Pha_aJrok/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/b9Pha_aJrok/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-12-26T10:45:33Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "WRSW5XAP7kWyqm5-y8ayIvy-rAs",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "N9Xy-yXP6F0"
+            },
+            "snippet": {
+                "publishedAt": "2023-10-15T02:00:09Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "Ra-ta-ta-ta 🎶 with #BTS #JungKook #NewJeans #뉴진스 #NewJeans_ditto",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/N9Xy-yXP6F0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/N9Xy-yXP6F0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/N9Xy-yXP6F0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-10-15T02:00:09Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "TDBPQVXXv7mlLrvSZ4AZrrGm1HI",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "NLjB1GqMzeA"
+            },
+            "snippet": {
+                "publishedAt": "2023-07-08T02:00:17Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "Let’s get Super Shy with your besties🎉#NewJeans #NewJeans_SuperShy #ImSuperShy #Time_to_NewJeans",
+                "description": "2023 ADOR. All Rights Reserved. Connect with NewJeans PHONING https://phoning.onelink.me/KG15/n7452q87 OFFICIAL ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/NLjB1GqMzeA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/NLjB1GqMzeA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/NLjB1GqMzeA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-07-08T02:00:17Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "01ndoPXULciqwbgt2r35YI5Hidk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "FAg1xtscjmg"
+            },
+            "snippet": {
+                "publishedAt": "2023-07-16T08:00:01Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "#ImSuperShy let’s gaurr with #NMIXX #LILY 🐨 #NewJeans #뉴진스 #DANIELLE #HANNI #NewJeans_SuperShy",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/FAg1xtscjmg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/FAg1xtscjmg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/FAg1xtscjmg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-07-16T08:00:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "v-DGTOSy-fxXwkBTf1sN2KQO2kg",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "WQPbUrczuQw"
+            },
+            "snippet": {
+                "publishedAt": "2023-01-09T09:00:13Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "OMG step challenge 🅾️❎ #NewJeans #뉴진스 #NewJeans_OMG #NewJeans_Ditto#Year_of_NewJeans",
+                "description": "OMG step challenge 🅾️❎ #NewJeans #뉴진스 #NewJeans_OMG #NewJeans_Ditto#Year_of_NewJeans c 2023 ADOR.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/WQPbUrczuQw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/WQPbUrczuQw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/WQPbUrczuQw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-01-09T09:00:13Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Pz6Xw2exLUG7GxZmYfxmKvWin9s",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Dxca41EhMb8"
+            },
+            "snippet": {
+                "publishedAt": "2022-12-06T10:00:01Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "NewJeans (뉴진스) 2022 MMA Dance Practice (Cookie+Hype Boy+Attention)",
+                "description": "NewJeans (뉴진스) 2022 MMA Dance Practice (Cookie+Hype Boy+Attention) Producer: MIN HEE JIN Performance Director: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Dxca41EhMb8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Dxca41EhMb8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Dxca41EhMb8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-12-06T10:00:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "b3yC6etnPxd7ULQg62Qxlp6gUHY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ixyoW8-rm9E"
+            },
+            "snippet": {
+                "publishedAt": "2023-01-13T09:00:01Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "Unnies vs Maknaes 🐇 #NewJeans #뉴진스 #NewJeans_OMG #NewJeans_Ditto#Year_of_NewJeans",
+                "description": "Unnies vs Maknaes #NewJeans #뉴진스 #NewJeans_OMG #NewJeans_Ditto#Year_of_NewJeans c 2023 ADOR. All Rights ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ixyoW8-rm9E/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ixyoW8-rm9E/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ixyoW8-rm9E/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-01-13T09:00:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "pjhkP4MBvSHYXjKEBghtxJ1B1HE",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "9JcJ5E1BloU"
+            },
+            "snippet": {
+                "publishedAt": "2022-08-18T11:00:10Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "NewJeans (뉴진스) &#39;Hype Boy&#39; Dance Practice",
+                "description": "NewJeans (뉴진스) 'Hype Boy' Dance Practice c 2022 ADOR. All Rights Reserved. Connect with NewJeans PHONING ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/9JcJ5E1BloU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/9JcJ5E1BloU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/9JcJ5E1BloU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-08-18T11:00:10Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "V7NuAiscF2eIuy8st8aIo79JaZU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "PvvQl4eskzU"
+            },
+            "snippet": {
+                "publishedAt": "2023-01-11T09:00:01Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "keep calm and OMG❤️‍🔥 #NewJeans #뉴진스 #NewJeans_OMG #NewJeans_Ditto #Year_of_NewJeans",
+                "description": "keep calm and OMG❤️‍   #NewJeans #뉴진스 #NewJeans_OMG #NewJeans_Ditto #Year_of_NewJeans c 2023 ADOR.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/PvvQl4eskzU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/PvvQl4eskzU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/PvvQl4eskzU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-01-11T09:00:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "nq_6fwCvKsp3Ui0dnJkhoDq-iOU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Ec0Z1v7jKDQ"
+            },
+            "snippet": {
+                "publishedAt": "2024-05-24T15:00:01Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "NewJeans (뉴진스) ‘How Sweet’ Performance Video | Coke Studio",
+                "description": "NewJeans (뉴진스) 'How Sweet' Performance Video | Coke Studio This performance video was filmed in partnership with Coke ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Ec0Z1v7jKDQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Ec0Z1v7jKDQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Ec0Z1v7jKDQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-05-24T15:00:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "PvCPIjouaNLddEkR5CkIBbpJCnY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "rh1eQZ20Jo8"
+            },
+            "snippet": {
+                "publishedAt": "2023-10-05T04:00:24Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "U and IIIIIIIIII #NewJeans #뉴진스#MINJI #DANIELLE #NewJeans_GetUp #Time_to_NewJeans",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/rh1eQZ20Jo8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/rh1eQZ20Jo8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/rh1eQZ20Jo8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-10-05T04:00:24Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "J8Jw2ZLzcazYvvOzFrFXsqkOuJc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "vxDamcWpnKE"
+            },
+            "snippet": {
+                "publishedAt": "2023-02-11T14:06:03Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "OMG한 부석순 선배님과 함께😆#NewJeans #뉴진스#NewJeans_OMG #NewJeans_Ditto #부석순 #BSS #SEVENTEEN #HAERIN #HANNI",
+                "description": "OMG한 부석순 선배님과 함께  #NewJeans #뉴진스#NewJeans_OMG #NewJeans_Ditto #부석순 #BSS #SEVENTEEN #HAERIN ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/vxDamcWpnKE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/vxDamcWpnKE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/vxDamcWpnKE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-02-11T14:06:03Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "61qzpAbcuctIhmNaAOkPLaLHkr8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "SmyFP2MgL4s"
+            },
+            "snippet": {
+                "publishedAt": "2023-03-16T09:15:01Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "we tried 👀 #NewJeans #뉴진스 #HAERIN #HANNI #WeAreNewJeans #Year_of_NewJeans",
+                "description": "we tried #NewJeans #뉴진스 #HAERIN #HANNI #WeAreNewJeans #Year_of_NewJeans c 2023 ADOR. All Rights Reserved.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/SmyFP2MgL4s/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/SmyFP2MgL4s/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/SmyFP2MgL4s/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-03-16T09:15:01Z"
+            }
+        }
+    ]
+}
