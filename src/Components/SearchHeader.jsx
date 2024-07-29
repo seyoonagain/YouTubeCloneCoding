@@ -3,54 +3,94 @@ import { useNavigate, useParams, Link } from 'react-router-dom';
 import { useDarkMode } from '../Context/DarkModeContext';
 import { CiSearch } from 'react-icons/ci';
 import { IoSunnySharp, IoMoonSharp } from 'react-icons/io5';
+import { IoMdArrowBack } from 'react-icons/io';
+import { PiUserCircleLight, PiListThin } from 'react-icons/pi';
+import InputOnOffButton from './ui/InputOnOffButton';
+import AccountDropdown from './AccountDropdown';
+import { useUserContext } from '../Context/UserContext';
+import useOutsideClick from '../Hooks/useOutsideClick';
+import Sidebar from './Sidebar';
+
+const TOGGLE_BUTTON_STYLE =
+    'size-5 hover:text-youtube transition-all duration-200';
 
 export default function SearchHeader() {
+    const { user, login } = useUserContext();
+    const handleOutsideClick = () => {
+        setShowAccountDropdown(false);
+    };
+    const ref = useOutsideClick(handleOutsideClick);
     const [text, setText] = useState('');
-    const [input, setInput] = useState(false);
+    const [showInput, setShowInput] = useState(false);
+    const [showSidebar, setShowSidebar] = useState(false);
+    const [showAccountDropdown, setShowAccountDropdown] = useState(false);
     const { darkMode, toggleDarkMode } = useDarkMode();
     const { keyword } = useParams();
     const navigate = useNavigate();
     const handleSubmit = (e) => {
         e.preventDefault();
         navigate(`/videos/${text}`);
-        setInput(false);
+        setShowInput(false);
     };
+    const handleSidebar = () => setShowSidebar(!showSidebar);
     useEffect(() => setText(keyword || ''), [keyword]);
     return (
         <header
-            className={`w-full bg-zinc-50 dark:bg-zinc-950 flex pt-2 pb-3 items-center z-50 ${
-                !input && 'justify-between'
+            className={`relative w-full bg-zinc-50 dark:bg-zinc-950 flex pt-2 pb-3 items-center z-49 ${
+                !showInput && 'justify-between'
             }`}
         >
-            <Link
-                to='/'
-                className={`${
-                    input
-                        ? 'hidden sm:flex items-center static'
-                        : 'flex items-center static'
+            <div
+                className={`flex ${
+                    showInput && 'hidden sm:flex items-center static'
                 }`}
             >
-                <img
-                    className='size-7 relative top-0.5'
-                    alt='YouTube'
-                    src='https://developers.google.com/static/site-assets/logo-youtube.svg'
-                />
-                <h1 className='ml-0.5 font-logo font-medium tracking-tight text-xl'>
-                    YouTube
-                </h1>
-            </Link>
+                {showSidebar && (
+                    <div className='absolute top-0 left-0 bg-black w-screen h-screen -ml-4 opacity-30 z-50'></div>
+                )}
+                <button
+                    onClick={handleSidebar}
+                    className='flex justify-center items-center shrink-0 size-10 hover:bg-gray-200 dark:hover:bg-zinc-800 rounded-full mr-4 z-49'
+                >
+                    <PiListThin className='size-6' />
+                </button>
+                {showSidebar && (
+                    <Sidebar
+                        showSidebar={showSidebar}
+                        setShowSidebar={setShowSidebar}
+                    />
+                )}
+
+                <Link to='/' className='flex items-center static'>
+                    <img
+                        className='size-7'
+                        alt='YouTube'
+                        src='https://developers.google.com/static/site-assets/logo-youtube.svg'
+                    />
+                    <h1 className='relative -top-0.5 ml-0.5 font-logo font-medium tracking-tight text-xl'>
+                        YouTube
+                    </h1>
+                </Link>
+            </div>
 
             <form
                 onSubmit={handleSubmit}
                 className={` ${
-                    !input && 'hidden sm:flex'
+                    !showInput && 'hidden sm:flex'
                 } w-full flex justify-center items-center'
                 }
                 `}
             >
+                <div className='absolute top-2 -left-2'>
+                    <InputOnOffButton
+                        onClick={() => setShowInput(!showInput)}
+                        showInput={!showInput}
+                        icon={<IoMdArrowBack className='size-6' />}
+                    />
+                </div>
                 <input
                     type='text'
-                    className='h-10 sm:w-2/5 w-3/5 rounded-l-full bg-zinc-50 dark:bg-zinc-950 outline-none border border-zinc-300 dark:border-zinc-700 pl-4 focus:border-blue-600 transition-all duration-200 '
+                    className='h-10 sm:w-1/2 w-8/12 rounded-l-full bg-zinc-50 dark:bg-zinc-950 outline-none border border-zinc-300 dark:border-zinc-700 pl-4 focus:border-blue-600 transition-all duration-200 '
                     placeholder='Search'
                     value={text}
                     onChange={(e) => setText(e.target.value)}
@@ -60,27 +100,58 @@ export default function SearchHeader() {
                 </button>
             </form>
             <div className='flex items-center'>
-                <button
-                    onClick={() => setInput(!input)}
-                    className={`${
-                        !input
-                            ? 'sm:hidden flex justify-center items-center h-10 w-10 rounded-full shrink-0 mr-3 hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-all duration-200'
-                            : 'hidden'
-                    } `}
-                >
-                    <CiSearch className='size-5 active:size-6 transition-all duration-200' />
-                </button>
+                <InputOnOffButton
+                    onClick={() => setShowInput(!showInput)}
+                    showInput={showInput}
+                    icon={<CiSearch className='size-6' />}
+                />
 
-                <button
-                    className='size-6 justify-center items-center'
-                    onClick={toggleDarkMode}
-                >
-                    {darkMode ? (
-                        <IoMoonSharp className='size-4 active:text-youtube hover:size-5 transition-all duration-200' />
-                    ) : (
-                        <IoSunnySharp className='size-4 active:text-youtube hover:size-5 transition-all duration-200' />
-                    )}
-                </button>
+                {!showInput && (
+                    <>
+                        <button
+                            className='size-10 flex justify-center items-center'
+                            onClick={toggleDarkMode}
+                        >
+                            {darkMode ? (
+                                <IoMoonSharp className={TOGGLE_BUTTON_STYLE} />
+                            ) : (
+                                <IoSunnySharp className={TOGGLE_BUTTON_STYLE} />
+                            )}
+                        </button>
+                        {!user && (
+                            <button
+                                onClick={login}
+                                className='rounded-full border border-zinc-300 dark:border-zinc-700 h-9 w-24 px-1 flex justify-center items-center text-sky-700 dark:text-sky-500 text-sm font-semibold hover:bg-sky-100 hover:border-transparent active:brightness-90 dark:hover:bg-sky-950 dark:active:bg-sky-900'
+                            >
+                                <PiUserCircleLight className='size-7 mr-1' />
+                                <p>Sign in</p>
+                            </button>
+                        )}
+                        {user && (
+                            <div ref={ref} className='relative'>
+                                <button
+                                    onClick={() =>
+                                        setShowAccountDropdown(
+                                            !showAccountDropdown
+                                        )
+                                    }
+                                    className='size-10 flex justify-center items-center shrink-0'
+                                >
+                                    <img
+                                        className='size-8 rounded-full '
+                                        src={user.photoURL}
+                                        alt={user.uid}
+                                    />
+                                </button>
+                                {showAccountDropdown && (
+                                    <AccountDropdown
+                                        setShowAccount={setShowAccountDropdown}
+                                    />
+                                )}
+                            </div>
+                        )}
+                    </>
+                )}
             </div>
         </header>
     );

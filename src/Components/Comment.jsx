@@ -26,11 +26,11 @@ export default function Comment({ comment }) {
                         src={authorProfileImageUrl}
                     />
                 ) : (
-                    <div className='flex justify-center items-center text-2xl font-semibold font-roboto rounded-full min-w-10 h-10 bg-gray-300 dark:bg-zinc-800'>
+                    <div className='flex justify-center items-center text-2xl font-semibold rounded-full min-w-10 h-10 bg-gray-300 dark:bg-zinc-800'>
                         {authorDisplayName.substring(1, 2).toUpperCase()}
                     </div>
                 )}
-                <div className='font-roboto ml-4'>
+                <div className='ml-4'>
                     <div className='flex items-baseline '>
                         <p className='font-semibold text-sm mr-1'>
                             {authorDisplayName}

@@ -19,7 +19,7 @@ export default function Videos() {
         refetchOnWindowFocus: false,
     });
     return (
-        <div>
+        <div className='flex justify-center'>
             {isLoading && <LoadingSpinner />}
             {error && <Error />}
             {!error && videos && (

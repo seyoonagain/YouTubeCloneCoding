@@ -5,12 +5,17 @@ import {
     PiThumbsDownLight,
     PiThumbsDownFill,
 } from 'react-icons/pi';
+import { useUserContext } from '../Context/UserContext';
 
 export default function LikeButton({ onComment, likeCount }) {
+    const { user } = useUserContext();
     let [thumbsUp, setThumbsUp] = useState(likeCount);
     const [liked, setLiked] = useState(false);
     const [disLiked, setDisLiked] = useState(false);
     const handleLikeButton = () => {
+        if (!user) {
+            return alert('Sign in to make your opinion count');
+        }
         if (!liked) {
             setDisLiked(false);
             thumbsUp++;
@@ -19,6 +24,9 @@ export default function LikeButton({ onComment, likeCount }) {
         setThumbsUp(thumbsUp);
     };
     const handleDisLikeButton = () => {
+        if (!user) {
+            return alert('Sign in to make your opinion count');
+        }
         if (liked && !disLiked) {
             setLiked(false);
             thumbsUp--;
@@ -50,7 +58,7 @@ export default function LikeButton({ onComment, likeCount }) {
                     )}
                 </button>
                 <p
-                    className={`${
+                    className={`cursor-default ${
                         onComment
                             ? 'text-xs opacity-70'
                             : 'text-sm font-semibold ml-2'

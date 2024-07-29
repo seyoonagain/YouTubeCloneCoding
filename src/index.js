@@ -8,6 +8,7 @@ import Videos from './Pages/Videos'
 import VideoDetail from './Pages/VideoDetail'
 import NotFound from './Pages/NotFound';
 import DarkModeProvider from './Context/DarkModeContext';
+import UserContextProvider from './Context/UserContext';
 
 const router = createBrowserRouter([
   {
@@ -27,7 +28,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <DarkModeProvider>
-      <RouterProvider router={router} />
+      <UserContextProvider>
+        <RouterProvider router={router} />
+      </UserContextProvider>
     </DarkModeProvider>
   </React.StrictMode>
 );

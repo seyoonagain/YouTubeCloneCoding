@@ -11,13 +11,24 @@ import VideoDescription from '../Components/VideoDescription';
 import VideoCard from '../Components/VideoCard';
 import LoadingSpinner from '../Components/LoadingSpinner';
 import Error from '../Components/Error';
+import { useUserContext } from '../Context/UserContext';
+import useSubscribe from '../Hooks/useSubscribe';
 
 export default function VideoDetail() {
+    const { user } = useUserContext();
+    const {
+        subscriptionQuery: { data },
+        addChannel,
+        removeChannel,
+    } = useSubscribe();
+    const subscription = data && Object.keys(data);
     const { videoId } = useParams();
     const { youtube } = useYoutubeApi();
     const { state } = useLocation();
     const { channel } = state;
-    const [subscribed, setSubscribed] = useState(false);
+    const [subscribed, setSubscribed] = useState(
+        subscription && subscription.includes(channel.id)
+    );
     const {
         isLoading,
         error,
@@ -32,6 +43,20 @@ export default function VideoDetail() {
         queryFn: () => youtube.relatedVideo(channel.id),
         refetchOnWindowFocus: false,
     });
+
+    const handleSubscribe = () => {
+        if (user) {
+            if (subscribed) {
+                removeChannel.mutate(channel);
+                setSubscribed(!subscribed);
+            } else {
+                addChannel.mutate(channel);
+                setSubscribed(!subscribed);
+            }
+        } else {
+            alert('Sign in to subscribe.');
+        }
+    };
     return (
         <section className='flex justify-center lg:flex-row flex-col mt-5'>
             {isLoading && <LoadingSpinner />}
@@ -56,7 +81,7 @@ export default function VideoDetail() {
                             <div className='flex items-center mb-2 sm:mb-0 justify-between sm:justify-normal'>
                                 <ChannelInfo channel={channel} />
                                 <button
-                                    onClick={() => setSubscribed(!subscribed)}
+                                    onClick={handleSubscribe}
                                     className={`w-24 h-9 rounded-full text-sm font-semibold ${
                                         subscribed
                                             ? 'bg-gray-200 text-zinc-900 dark:bg-zinc-800 dark:text-white'

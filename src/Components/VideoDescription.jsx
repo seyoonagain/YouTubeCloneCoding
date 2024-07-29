@@ -5,7 +5,7 @@ export default function VideoDescription({ video }) {
     const [showMore, setShowMore] = useState(false);
     const { viewCount } = video.statistics;
     return (
-        <div className='font-roboto rounded-xl p-3 bg-gray-200 dark:bg-zinc-800'>
+        <div className='rounded-xl p-3 bg-gray-200 dark:bg-zinc-800'>
             <p className='text-dsc font-semibold'>
                 {`${parseInt(viewCount).toLocaleString()} views`}
                 {'\xa0\xa0'}

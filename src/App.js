@@ -1,4 +1,3 @@
-import './App.css';
 import { Outlet } from 'react-router-dom'
 import { QueryClientProvider, QueryClient } from '@tanstack/react-query'
 import SearchHeader from './Components/SearchHeader';

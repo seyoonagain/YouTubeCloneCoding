@@ -23,13 +23,13 @@ export default function VideoCard({ video, type }) {
 
     return (
         <li
-            className={`flex ${
+            className={`flex max-w-lg ${
                 isList ? 'flex-row mb-1' : 'flex-col mb-8'
-            }  mx-2 tracking-tight font-roboto`}
+            }  mx-2 tracking-tight`}
         >
             <img
                 className={`rounded-xl cursor-pointer ${
-                    isList ? 'w-3/12 lg:w-5/12 mr-2' : 'mb-3'
+                    isList ? 'w-4/12 lg:w-5/12 mr-2' : 'mb-3'
                 }`}
                 alt='videoThumbnail'
                 src={thumbnails.medium.url}
@@ -42,7 +42,7 @@ export default function VideoCard({ video, type }) {
 
             <div
                 className={`flex items-start relative ${
-                    isList ? 'w-9/12 lg:w-7/12' : ''
+                    isList ? 'w-8/12 lg:w-7/12' : ''
                 }`}
             >
                 {!isList && (
