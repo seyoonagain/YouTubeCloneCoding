@@ -4,6 +4,8 @@ import { useDarkMode } from '../Context/DarkModeContext';
 import LikeButton from './LikeButton';
 import { RxDotsVertical } from 'react-icons/rx';
 import { GoChevronDown, GoChevronUp } from 'react-icons/go';
+import CommentDropdown from './CommentDropdown';
+import useOutsideClick from '../Hooks/useOutsideClick';
 
 export default function Comment({ comment }) {
     const {
@@ -16,6 +18,14 @@ export default function Comment({ comment }) {
     } = comment;
     const [replies, setReplies] = useState(false);
     const { darkMode } = useDarkMode();
+    const [showDropdown, setShowDropdown] = useState(false);
+    const handleOutsideClick = () => {
+        setShowDropdown(false);
+    };
+    const ref = useOutsideClick(handleOutsideClick);
+    const handleClick = (e) => {
+        setShowDropdown(true);
+    };
     return (
         <li>
             <div className='flex mb-6 relative'>
@@ -43,7 +53,7 @@ export default function Comment({ comment }) {
                         {textOriginal}
                     </pre>
                     <div className='flex items-center'>
-                        <LikeButton onComment={true} likeCount={likeCount} />
+                        <LikeButton forComment={true} likeCount={likeCount} />
                         <button className='ml-2 rounded-full w-14 h-9 text-xs font-medium hover:bg-gray-200 dark:hover:bg-zinc-800 active:brightness-90 dark:active:brightness-125'>
                             Reply
                         </button>
@@ -75,6 +85,7 @@ export default function Comment({ comment }) {
                     )}
                 </div>
                 <button
+                    onClick={handleClick}
                     className={`absolute right-0 -mt-2 flex justify-center items-center size-10 rounded-full active:transition ${
                         darkMode
                             ? 'active:bg-zinc-800 duration-700'
@@ -83,6 +94,11 @@ export default function Comment({ comment }) {
                 >
                     <RxDotsVertical className='size-5' />
                 </button>
+                {showDropdown && (
+                    <div ref={ref}>
+                        <CommentDropdown commentInfo={comment} />
+                    </div>
+                )}
             </div>
         </li>
     );

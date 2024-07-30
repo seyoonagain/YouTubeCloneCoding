@@ -44,6 +44,7 @@ const RAW_RUNTIME_STATE =
           ["react-scripts", "virtual:76eb073c16655b318d2196641f1712de9d080512ccce2ca5c0bfcbe0e1676de999a768c0cdb849dc915926569b84acf8f7fa76958347bcf1cdd6bfff53283c0b#npm:5.0.1"],\
           ["tailwindcss", "npm:3.4.4"],\
           ["timeago.js", "npm:4.0.2"],\
+          ["uuid", "npm:10.0.0"],\
           ["web-vitals", "npm:2.1.4"]\
         ],\
         "linkType": "SOFT"\
@@ -19002,6 +19003,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["uuid", [\
+      ["npm:10.0.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/uuid-npm-10.0.0-4872b46ff8-10c0.zip/node_modules/uuid/",\
+        "packageDependencies": [\
+          ["uuid", "npm:10.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:8.3.2", {\
         "packageLocation": "../../../.yarn/berry/cache/uuid-npm-8.3.2-eca0baba53-10c0.zip/node_modules/uuid/",\
         "packageDependencies": [\
@@ -19927,6 +19935,7 @@ const RAW_RUNTIME_STATE =
           ["react-scripts", "virtual:76eb073c16655b318d2196641f1712de9d080512ccce2ca5c0bfcbe0e1676de999a768c0cdb849dc915926569b84acf8f7fa76958347bcf1cdd6bfff53283c0b#npm:5.0.1"],\
           ["tailwindcss", "npm:3.4.4"],\
           ["timeago.js", "npm:4.0.2"],\
+          ["uuid", "npm:10.0.0"],\
           ["web-vitals", "npm:2.1.4"]\
         ],\
         "linkType": "SOFT"\

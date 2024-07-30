@@ -7,7 +7,7 @@ import {
 } from 'react-icons/pi';
 import { useUserContext } from '../Context/UserContext';
 
-export default function LikeButton({ onComment, likeCount }) {
+export default function LikeButton({ forComment, likeCount }) {
     const { user } = useUserContext();
     let [thumbsUp, setThumbsUp] = useState(likeCount);
     const [liked, setLiked] = useState(false);
@@ -19,7 +19,9 @@ export default function LikeButton({ onComment, likeCount }) {
         if (!liked) {
             setDisLiked(false);
             thumbsUp++;
-        } else thumbsUp--;
+        } else {
+            thumbsUp--;
+        }
         setLiked(!liked);
         setThumbsUp(thumbsUp);
     };
@@ -39,14 +41,14 @@ export default function LikeButton({ onComment, likeCount }) {
             <div
                 onClick={() => handleLikeButton()}
                 className={`flex items-center ${
-                    onComment
+                    forComment
                         ? 'h-9 mr-2'
                         : 'justify-center min-w-20 h-9 rounded-l-full bg-gray-200 dark:bg-zinc-800 border-r border-r-zinc-300 dark:border-r-zinc-700 hover:brightness-95 dark:hover:brightness-125 active:brightness-90 dark:active:brightness-150'
                 }`}
             >
                 <button
                     className={`${
-                        onComment
+                        forComment
                             ? 'flex justify-center items-center w-9 h-9 rounded-full hover:bg-gray-200 dark:hover:bg-zinc-800'
                             : ''
                     }`}
@@ -58,13 +60,15 @@ export default function LikeButton({ onComment, likeCount }) {
                     )}
                 </button>
                 <p
-                    className={`cursor-default ${
-                        onComment
+                    className={`cursor-default min-w-2 ${
+                        forComment
                             ? 'text-xs opacity-70'
                             : 'text-sm font-semibold ml-2'
                     }`}
                 >
-                    {thumbsUp > 1000000
+                    {thumbsUp === 0
+                        ? ''
+                        : thumbsUp > 1000000
                         ? `${Math.floor(thumbsUp / 100000) / 10}M`
                         : thumbsUp > 1000
                         ? `${Math.floor(thumbsUp / 1000)}K`
@@ -74,7 +78,7 @@ export default function LikeButton({ onComment, likeCount }) {
             <button
                 onClick={() => handleDisLikeButton()}
                 className={`${
-                    onComment
+                    forComment
                         ? 'flex justify-center items-center w-9 h-9 rounded-full hover:bg-gray-200 dark:hover:bg-zinc-800'
                         : 'flex items-center justify-center min-w-12 h-9 rounded-r-full bg-gray-200 dark:bg-zinc-800 dark:border-r-zinc-700 hover:brightness-95 dark:hover:brightness-125 active:brightness-90 dark:active:brightness-150'
                 }`}

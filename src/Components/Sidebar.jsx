@@ -39,7 +39,6 @@ export default function Sidebar({ setShowSidebar }) {
         subscriptionQuery: { data },
     } = useSubscribe();
     const subscriptions = data && Object.values(data);
-    console.log(subscriptions);
     return (
         <aside
             ref={ref}

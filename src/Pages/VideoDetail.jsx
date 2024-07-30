@@ -25,7 +25,7 @@ export default function VideoDetail() {
     const { videoId } = useParams();
     const { youtube } = useYoutubeApi();
     const { state } = useLocation();
-    const { channel } = state;
+    const { channel } = state && state;
     const [subscribed, setSubscribed] = useState(
         subscription && subscription.includes(channel.id)
     );

@@ -30,7 +30,7 @@ export async function addToSubscription(channel, userId) {
 }
 
 export async function unsubscribe(channel, userId) {
-	return remove(ref(database, `subscription/${userId}/${channel.id}`), channel)
+	return remove(ref(database, `subscription/${userId}/${channel.id}`))
 }
 
 export async function getSubscription(userId) {
@@ -39,4 +39,19 @@ export async function getSubscription(userId) {
 			const subscription = snapshot.val() || {}
 			return subscription
 		})
+}
+
+export async function leaveComment(commentInfo) {
+	return set(ref(database, `comment/${commentInfo.videoId}/${commentInfo.commentId}`), commentInfo)
+}
+
+export async function deleteComment(commentInfo) {
+	return remove(ref(database, `comment/${commentInfo.videoId}/${commentInfo.commentId}`))
+}
+
+export async function getComment(videoId) {
+	return get(ref(database, `comment/${videoId}`)).then(snapshot => {
+		const comments = snapshot.val() || {}
+		return Object.values(comments).sort((a, b) => Date.parse(b.publishedAt) - Date.parse(a.publishedAt))
+	})
 }
