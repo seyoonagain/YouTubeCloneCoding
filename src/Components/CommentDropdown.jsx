@@ -16,7 +16,7 @@ export default function CommentDropdown({ commentInfo }) {
         }
     };
     return (
-        <div className='cursor-default absolute top-10 right-0 w-32 dark:bg-zinc-800 bg-gray-50 rounded-xl shadow-account dark:shadow-none'>
+        <div className='cursor-default absolute top-8 right-0 w-32 dark:bg-zinc-800 bg-gray-50 rounded-xl shadow-account dark:shadow-none'>
             <button
                 onClick={handleDelete}
                 className={`w-full px-4 py-2 my-2 flex items-center hover:bg-gray-200 active:bg-gray-300 dark:hover:bg-zinc-600 dark:active:bg-zinc-600 ${
