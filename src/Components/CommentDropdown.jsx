@@ -4,13 +4,18 @@ import { ReactComponent as DeleteIcon } from './icons/DeleteIcon.svg';
 import { ReactComponent as ReportIcon } from './icons/ReportIcon.svg';
 import { useUserContext } from '../Context/UserContext';
 
-export default function CommentDropdown({ commentInfo }) {
+export default function CommentDropdown({
+    commentInfo,
+    totalComments,
+    setTotalComments,
+}) {
     const { user } = useUserContext();
     const isMyComment = user && commentInfo.userId === user.uid;
     const { removeComment } = useComment();
     const handleDelete = () => {
         if (isMyComment) {
             removeComment.mutate(commentInfo);
+            setTotalComments(parseInt(totalComments) - 1);
         } else {
             return;
         }

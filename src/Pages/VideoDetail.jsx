@@ -109,15 +109,10 @@ export default function VideoDetail() {
                             </div>
                         </div>
                         <VideoDescription video={videoInfo} />
-                        <p className='text-xl font-extrabold font-roboto tracking-tight my-5'>
-                            {`${
-                                videoInfo &&
-                                parseInt(
-                                    videoInfo.statistics.commentCount
-                                ).toLocaleString()
-                            } Comments`}
-                        </p>
-                        <CommentSection videoId={videoId} />
+                        <CommentSection
+                            videoInfo={videoInfo}
+                            videoId={videoId}
+                        />
                     </article>
 
                     <section className='lg:basis-4/12 w-full list-none'>

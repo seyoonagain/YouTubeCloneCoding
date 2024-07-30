@@ -7,7 +7,7 @@ import { useParams } from 'react-router-dom';
 const BUTTON_STYLE =
     'rounded-full font-medium text-sm tracking-tight py-2 px-4';
 
-export default function InputComment() {
+export default function InputComment({ totalComments, setTotalComments }) {
     const { videoId } = useParams();
     const { addComment } = useComment(videoId);
     const {
@@ -42,6 +42,7 @@ export default function InputComment() {
         ref.current.blur();
         setComment('');
         setInputOpen(false);
+        setTotalComments(parseInt(totalComments) + 1);
     };
     return (
         <div className='flex min-w-full mb-7'>

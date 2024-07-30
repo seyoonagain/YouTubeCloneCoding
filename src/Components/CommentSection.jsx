@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { useYoutubeApi } from '../Context/YoutubeApiContext';
 import Comment from './Comment';
@@ -8,7 +8,7 @@ import { useUserContext } from '../Context/UserContext';
 import InputComment from './InputComment';
 import useComment from '../Hooks/useComment';
 
-export default function CommentSection({ videoId }) {
+export default function CommentSection({ videoInfo, videoId }) {
     const { youtube } = useYoutubeApi();
     const { user } = useUserContext();
     const {
@@ -23,16 +23,34 @@ export default function CommentSection({ videoId }) {
     const {
         commentQuery: { data: commentByUser },
     } = useComment();
+    const [totalComments, setTotalComments] = useState(
+        videoInfo && videoInfo.statistics.commentCount
+    );
     return (
         <>
-            {user && <InputComment />}
+            <p className='text-xl font-extrabold font-roboto tracking-tight my-5'>
+                {`${
+                    videoInfo && parseInt(totalComments).toLocaleString()
+                } Comments`}
+            </p>
+            {user && (
+                <InputComment
+                    setTotalComments={setTotalComments}
+                    totalComments={totalComments}
+                />
+            )}
 
             <ul>
                 {isLoading && <LoadingSpinner />}
                 {error && <Error />}
                 {commentByUser &&
                     commentByUser.map((comment) => (
-                        <Comment key={comment.commentId} comment={comment} />
+                        <Comment
+                            totalComments={totalComments}
+                            setTotalComments={setTotalComments}
+                            key={comment.commentId}
+                            comment={comment}
+                        />
                     ))}
                 {comments &&
                     comments.map((comment) => (

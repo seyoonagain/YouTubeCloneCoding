@@ -7,7 +7,7 @@ import { GoChevronDown, GoChevronUp } from 'react-icons/go';
 import CommentDropdown from './CommentDropdown';
 import useOutsideClick from '../Hooks/useOutsideClick';
 
-export default function Comment({ comment }) {
+export default function Comment({ comment, totalComments, setTotalComments }) {
     const {
         authorProfileImageUrl,
         authorDisplayName,
@@ -96,7 +96,11 @@ export default function Comment({ comment }) {
                 </button>
                 {showDropdown && (
                     <div ref={ref}>
-                        <CommentDropdown commentInfo={comment} />
+                        <CommentDropdown
+                            commentInfo={comment}
+                            setTotalComments={setTotalComments}
+                            totalComments={totalComments}
+                        />
                     </div>
                 )}
             </div>
