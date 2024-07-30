@@ -5,7 +5,7 @@ import { CiSearch } from 'react-icons/ci';
 import { IoSunnySharp, IoMoonSharp } from 'react-icons/io5';
 import { IoMdArrowBack } from 'react-icons/io';
 import { PiUserCircleLight, PiListThin } from 'react-icons/pi';
-import InputOnOffButton from './ui/InputOnOffButton';
+import InputOnOffButton from './InputOnOffButton';
 import AccountDropdown from './AccountDropdown';
 import { useUserContext } from '../Context/UserContext';
 import useOutsideClick from '../Hooks/useOutsideClick';
@@ -36,7 +36,7 @@ export default function SearchHeader() {
     useEffect(() => setText(keyword || ''), [keyword]);
     return (
         <header
-            className={`relative w-full bg-zinc-50 dark:bg-zinc-950 flex pt-2 pb-3 items-center z-49 ${
+            className={`relative w-full bg-zinc-50 dark:bg-zinc-950 flex pt-2 pb-3 items-center z-1 ${
                 !showInput && 'justify-between'
             }`}
         >
@@ -50,16 +50,11 @@ export default function SearchHeader() {
                 )}
                 <button
                     onClick={handleSidebar}
-                    className='flex justify-center items-center shrink-0 size-10 hover:bg-gray-200 dark:hover:bg-zinc-800 rounded-full mr-4 z-49'
+                    className='flex justify-center items-center shrink-0 size-10 hover:bg-gray-200 dark:hover:bg-zinc-800 rounded-full mr-4 z-1'
                 >
                     <PiListThin className='size-6' />
                 </button>
-                {showSidebar && (
-                    <Sidebar
-                        showSidebar={showSidebar}
-                        setShowSidebar={setShowSidebar}
-                    />
-                )}
+                {showSidebar && <Sidebar setShowSidebar={setShowSidebar} />}
 
                 <Link to='/' className='flex items-center static'>
                     <img
@@ -77,9 +72,7 @@ export default function SearchHeader() {
                 onSubmit={handleSubmit}
                 className={` ${
                     !showInput && 'hidden sm:flex'
-                } w-full flex justify-center items-center'
-                }
-                `}
+                } w-full flex justify-center items-center`}
             >
                 <div className='absolute top-2 -left-2'>
                     <InputOnOffButton
@@ -90,7 +83,7 @@ export default function SearchHeader() {
                 </div>
                 <input
                     type='text'
-                    className='h-10 sm:w-1/2 w-8/12 rounded-l-full bg-zinc-50 dark:bg-zinc-950 outline-none border border-zinc-300 dark:border-zinc-700 pl-4 focus:border-blue-600 transition-all duration-200 '
+                    className='h-10 w-8/12 sm:w-6/12 rounded-l-full bg-zinc-50 dark:bg-zinc-950 outline-none border border-zinc-300 dark:border-zinc-700 pl-4 focus:border-blue-600 transition-all duration-200 '
                     placeholder='Search'
                     value={text}
                     onChange={(e) => setText(e.target.value)}

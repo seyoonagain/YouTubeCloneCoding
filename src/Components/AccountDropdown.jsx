@@ -1,6 +1,6 @@
 import React from 'react';
 import { useUserContext } from '../Context/UserContext';
-import SidebarDivider from './ui/SidebarDivider';
+import SidebarDivider from './SidebarDivider';
 import { PiSignInThin } from 'react-icons/pi';
 
 export default function AccountDropdown({ setShowAccount }) {
@@ -13,7 +13,7 @@ export default function AccountDropdown({ setShowAccount }) {
         setShowAccount(false);
     };
     return (
-        <div className='cursor-default absolute top-10 right-0 w-72 dark:bg-zinc-800 dark:text-gray-50 bg-zinc-50 text-gray-950 rounded-xl shadow-account dark:shadow-none'>
+        <div className='cursor-default absolute top-10 right-0 w-72 dark:bg-zinc-800 bg-gray-50 rounded-xl shadow-account dark:shadow-none'>
             <div className='flex items-center p-4'>
                 <img
                     src={photoURL}

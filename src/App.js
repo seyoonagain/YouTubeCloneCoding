@@ -8,14 +8,14 @@ const queryClient = new QueryClient()
 function App() {
   return (
     <>
-      <nav className='sticky top-0 z-50'>
-        <SearchHeader />
-      </nav>
-      <YoutubeApiProvider>
-        <QueryClientProvider client={queryClient}>
+      <QueryClientProvider client={queryClient}>
+        <YoutubeApiProvider>
+          <nav className='sticky top-0 z-50'>
+            <SearchHeader />
+          </nav>
           <Outlet className='z-0' />
-        </QueryClientProvider>
-      </YoutubeApiProvider>
+        </YoutubeApiProvider >
+      </QueryClientProvider>
 
     </>
   );

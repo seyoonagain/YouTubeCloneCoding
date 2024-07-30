@@ -14,7 +14,7 @@ export default function LikeButton({ onComment, likeCount }) {
     const [disLiked, setDisLiked] = useState(false);
     const handleLikeButton = () => {
         if (!user) {
-            return alert('Sign in to make your opinion count');
+            return alert('Sign in to make your opinion count.');
         }
         if (!liked) {
             setDisLiked(false);
@@ -25,7 +25,7 @@ export default function LikeButton({ onComment, likeCount }) {
     };
     const handleDisLikeButton = () => {
         if (!user) {
-            return alert('Sign in to make your opinion count');
+            return alert('Sign in to make your opinion count.');
         }
         if (liked && !disLiked) {
             setLiked(false);
