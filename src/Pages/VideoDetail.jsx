@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useLocation, useParams } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
-import { useYoutubeApi } from '../Context/YoutubeApiContext';
+import { useYoutubeApiContext } from '../Context/YoutubeApiContext';
 import CommentSection from '../Components/CommentSection';
 import { PiShareFatLight } from 'react-icons/pi';
 import { RxDotsHorizontal } from 'react-icons/rx';
@@ -23,7 +23,7 @@ export default function VideoDetail() {
     } = useSubscribe();
     const subscription = data && Object.keys(data);
     const { videoId } = useParams();
-    const { youtube } = useYoutubeApi();
+    const { youtube } = useYoutubeApiContext();
     const { state } = useLocation();
     const { channel } = state && state;
     const [subscribed, setSubscribed] = useState(

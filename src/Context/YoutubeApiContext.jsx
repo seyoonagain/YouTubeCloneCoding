@@ -14,6 +14,6 @@ export default function YoutubeApiProvider({ children }) {
     );
 }
 
-export function useYoutubeApi() {
+export function useYoutubeApiContext() {
     return useContext(YoutubeApiContext);
 }

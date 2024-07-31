@@ -3,12 +3,12 @@ import { useQuery } from '@tanstack/react-query';
 import { format } from 'timeago.js';
 import { RxDotsVertical } from 'react-icons/rx';
 import { useDarkMode } from '../Context/DarkModeContext';
-import { useYoutubeApi } from '../Context/YoutubeApiContext';
+import { useYoutubeApiContext } from '../Context/YoutubeApiContext';
 import { useNavigate } from 'react-router-dom';
 
 export default function VideoCard({ video, type }) {
     const { darkMode } = useDarkMode();
-    const { youtube } = useYoutubeApi();
+    const { youtube } = useYoutubeApiContext();
     const navigate = useNavigate();
     const isList = type === 'list';
     const { channelId, channelTitle, publishedAt, thumbnails, title } =
@@ -20,10 +20,9 @@ export default function VideoCard({ video, type }) {
         refetchOnWindowFocus: false,
     });
     const channelThumbnail = channel && channel.snippet.thumbnails.default.url;
-
     return (
         <li
-            className={`flex max-w-lg ${
+            className={`flex max-w-full ${
                 isList ? 'flex-row mb-1' : 'flex-col mb-8'
             }  mx-2 tracking-tight`}
         >
@@ -56,7 +55,7 @@ export default function VideoCard({ video, type }) {
                     <p
                         className={`font-semibold ${
                             isList
-                                ? 'mb-2 lg:mb-1 lg:text-dsc lg:break-all'
+                                ? 'mb-2 lg:mb-1 lg:text-dsc break-all'
                                 : 'mb-1'
                         } leading-5 line-clamp-2 pr-7 cursor-pointer`}
                         onClick={() =>

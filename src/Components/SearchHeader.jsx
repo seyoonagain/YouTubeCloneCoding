@@ -83,12 +83,12 @@ export default function SearchHeader() {
                 </div>
                 <input
                     type='text'
-                    className='h-10 w-8/12 sm:w-6/12 rounded-l-full bg-zinc-50 dark:bg-zinc-950 outline-none border border-zinc-300 dark:border-zinc-700 pl-4 focus:border-blue-600 transition-all duration-200 '
+                    className='h-10 w-8/12 sm:w-6/12 rounded-l-full bg-zinc-50 dark:bg-zinc-950 outline-none border border-zinc-300 dark:border-zinc-700 pl-4 focus:border-blue-600'
                     placeholder='Search'
                     value={text}
                     onChange={(e) => setText(e.target.value)}
                 />
-                <button className='flex justify-center items-center h-10 w-16 rounded-r-full bg-zinc-100 dark:bg-zinc-800 border border-l-0 border-zinc-300 dark:border-zinc-700 transition-all duration-200 '>
+                <button className='flex justify-center items-center h-10 w-16 rounded-r-full bg-zinc-100 dark:bg-zinc-800 border border-l-0 border-zinc-300 dark:border-zinc-700'>
                     <CiSearch className='size-6' />
                 </button>
             </form>

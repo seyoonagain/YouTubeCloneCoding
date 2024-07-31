@@ -2,13 +2,13 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
 import VideoCard from '../Components/VideoCard';
-import { useYoutubeApi } from '../Context/YoutubeApiContext';
+import { useYoutubeApiContext } from '../Context/YoutubeApiContext';
 import LoadingSpinner from '../Components/LoadingSpinner';
 import Error from '../Components/Error';
 
 export default function Videos() {
     const { keyword } = useParams();
-    const { youtube } = useYoutubeApi();
+    const { youtube } = useYoutubeApiContext();
     const {
         isLoading,
         error,

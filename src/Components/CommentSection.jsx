@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
-import { useYoutubeApi } from '../Context/YoutubeApiContext';
+import { useYoutubeApiContext } from '../Context/YoutubeApiContext';
 import Comment from './Comment';
 import LoadingSpinner from './LoadingSpinner';
 import Error from './Error';
@@ -9,7 +9,7 @@ import InputComment from './InputComment';
 import useComment from '../Hooks/useComment';
 
 export default function CommentSection({ videoInfo, videoId }) {
-    const { youtube } = useYoutubeApi();
+    const { youtube } = useYoutubeApiContext();
     const { user } = useUserContext();
     const {
         isLoading,
