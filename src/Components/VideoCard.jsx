@@ -67,13 +67,13 @@ export default function VideoCard({ video, type }) {
                         {title.replace(/&#39;/gm, "'")}
                     </p>
 
-                    <p
+                    <h2
                         className={`${
                             isList ? 'text-xs leading-3' : 'text-sm leading-5'
                         } opacity-70 cursor-pointer`}
                     >
                         {channelTitle}
-                    </p>
+                    </h2>
                     <p
                         className={`${
                             isList ? 'text-xs' : 'text-sm'

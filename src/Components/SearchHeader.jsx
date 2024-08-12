@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useNavigate, useParams, Link } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import { useDarkMode } from '../Context/DarkModeContext';
 import { CiSearch } from 'react-icons/ci';
 import { IoSunnySharp, IoMoonSharp } from 'react-icons/io5';
@@ -10,6 +10,7 @@ import AccountDropdown from './AccountDropdown';
 import { useUserContext } from '../Context/UserContext';
 import useOutsideClick from '../Hooks/useOutsideClick';
 import Sidebar from './Sidebar';
+import Logo from './Logo';
 
 const TOGGLE_BUTTON_STYLE =
     'size-5 hover:text-youtube transition-all duration-200';
@@ -54,18 +55,11 @@ export default function SearchHeader() {
                 >
                     <PiListThin className='size-6' />
                 </button>
-                {showSidebar && <Sidebar setShowSidebar={setShowSidebar} />}
-
-                <Link to='/' className='flex items-center static'>
-                    <img
-                        className='size-7'
-                        alt='YouTube'
-                        src='https://developers.google.com/static/site-assets/logo-youtube.svg'
-                    />
-                    <h1 className='relative -top-0.5 ml-0.5 font-logo font-medium tracking-tight text-xl'>
-                        YouTube
-                    </h1>
-                </Link>
+                <Logo />
+                <Sidebar
+                    setShowSidebar={setShowSidebar}
+                    showSidebar={showSidebar}
+                />
             </div>
 
             <form

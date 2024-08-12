@@ -1,6 +1,5 @@
 import React from 'react';
 import SideMenu from './SideMenu';
-import { Link } from 'react-router-dom';
 import SidebarDivider from './SidebarDivider';
 import { useUserContext } from '../Context/UserContext';
 import useOutsideClick from '../Hooks/useOutsideClick';
@@ -28,8 +27,9 @@ import { ReactComponent as SendFeedbackIcon } from './icons/SendFeedbackIcon.svg
 import { ReactComponent as AllSubscriptionsIcon } from './icons/AllSubscriptionsIcon.svg';
 import useSubscribe from '../Hooks/useSubscribe';
 import SideMenuCategory from './SideMenuCategory';
+import Logo from './Logo';
 
-export default function Sidebar({ setShowSidebar }) {
+export default function Sidebar({ setShowSidebar, showSidebar }) {
     const { user } = useUserContext();
     const handleOutsideClick = () => {
         setShowSidebar(false);
@@ -42,7 +42,9 @@ export default function Sidebar({ setShowSidebar }) {
     return (
         <aside
             ref={ref}
-            className={`fixed top-0 left-0 lg:block h-full w-[15.5rem] pl-4 pr-5 pt-2 z-50 overflow-scroll dark:bg-zinc-950 bg-gray-50`}
+            className={`fixed top-0 left-0 h-full w-[15.5rem] pl-4 pr-5 pt-2 z-50 overflow-scroll dark:bg-zinc-950 bg-gray-50 ${
+                showSidebar ? 'translate-x-0' : '-translate-x-full'
+            } transition-transform duration-300`}
         >
             <div className='flex'>
                 <button
@@ -52,18 +54,9 @@ export default function Sidebar({ setShowSidebar }) {
                     <PiListThin className='size-6' />
                 </button>
 
-                <Link to='/' className='flex items-center static'>
-                    <img
-                        className='size-7'
-                        alt='YouTube'
-                        src='https://developers.google.com/static/site-assets/logo-youtube.svg'
-                    />
-                    <h1 className='ml-0.5 relative -top-0.5 font-logo font-medium tracking-tight text-xl'>
-                        YouTube
-                    </h1>
-                </Link>
+                <Logo />
             </div>
-            <div className='flex flex-col items-start mt-5'>
+            <ul className='flex flex-col items-start mt-5'>
                 <SideMenu text='Home' icon={<HomeIcon />} />
                 <SideMenu text='Shorts' icon={<ShortsIcon />} />
                 <SideMenu text='Subscription' icon={<SubscriptionIcon />} />
@@ -129,7 +122,7 @@ export default function Sidebar({ setShowSidebar }) {
                 <SideMenu text='Help' icon={<HelpIcon />} />
                 <SideMenu text='Send feedback' icon={<SendFeedbackIcon />} />
                 <SidebarDivider />
-            </div>
+            </ul>
         </aside>
     );
 }

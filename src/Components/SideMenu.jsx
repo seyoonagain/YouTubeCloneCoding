@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function SideMenu({ text, icon, thumbnail }) {
     return (
-        <button className='w-full h-10 flex rounded-lg py-1 items-center hover:bg-gray-200 dark:hover:bg-zinc-700 active:brightness-90 dark:active:brightness-125'>
+        <li className='w-full h-10 flex rounded-lg py-1 items-center hover:bg-gray-200 dark:hover:bg-zinc-700 active:brightness-90 dark:active:brightness-125 cursor-pointer'>
             {icon && (
                 <div className='size-10 mr-4 fill-zinc-900 dark:fill-gray-50'>
                     {icon}
@@ -16,6 +16,6 @@ export default function SideMenu({ text, icon, thumbnail }) {
                 />
             )}
             <p className='text-sm'>{text}</p>
-        </button>
+        </li>
     );
 }

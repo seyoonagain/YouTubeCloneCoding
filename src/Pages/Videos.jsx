@@ -19,7 +19,7 @@ export default function Videos() {
         refetchOnWindowFocus: false,
     });
     return (
-        <div className='flex justify-center'>
+        <section className='flex justify-center'>
             {isLoading && <LoadingSpinner />}
             {error && <Error />}
             {!error && videos && (
@@ -30,6 +30,6 @@ export default function Videos() {
                         ))}
                 </ul>
             )}
-        </div>
+        </section>
     );
 }
