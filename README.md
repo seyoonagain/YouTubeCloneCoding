@@ -46,13 +46,12 @@ This project focuses on building a user interface that allows for video streamin
 
 ### Appearance
 
-<h4 align='center'> Light Mode / 라이트 모드 </h4>
+<h4 align='center'> Light Mode & Dark Mode / 라이트 모드 & 다크 모드 </h4>
 
-<div align='center'><img width="1024" alt="main_macbook_lightMode" src="https://github.com/user-attachments/assets/e37cb14f-2aa9-4e1c-9bff-bb7c58d5bf62"></div>
-
-<h4 align='center'> Dark Mode / 다크 모드 </h4>
-
-<div align='center'><img width="1024" alt="main_macbook_afterLogin" src="https://github.com/user-attachments/assets/b257ca8d-8499-4d22-b824-42a9f0e1ba8b"></div>
+<div align='center' style="display: flex; justify-content: center;">
+  <img width="550" alt="main_macbook_lightMode" src="https://github.com/user-attachments/assets/e37cb14f-2aa9-4e1c-9bff-bb7c58d5bf62">
+  <img width="550" alt="main_macbook_afterLogin" src="https://github.com/user-attachments/assets/b257ca8d-8499-4d22-b824-42a9f0e1ba8b">
+</div>
 
 ---
 
